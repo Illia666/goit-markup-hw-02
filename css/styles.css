@@ -16,7 +16,11 @@ line-height: 1.20;
 
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: #212121;
+}
+
+.active{
+    color: #2196F3;
 }
 
 .menu-link{
