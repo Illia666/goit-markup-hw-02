@@ -7,8 +7,8 @@
 }
 
 .logo{
-    font-family: 'Raleway';
-font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
@@ -31,7 +31,7 @@ color: #212121
 }
 
 .mail-link{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -71,7 +71,7 @@ color: #757575;
 
 
 .main-title{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -87,7 +87,7 @@ color: #2196F3;
 }
 
 .modal-btn{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -108,7 +108,7 @@ color:#FFFFFF;
 }
 
 .suptitle{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -120,7 +120,7 @@ color: #212121;
 }
 
 .section-description{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -133,7 +133,7 @@ color: #757575;
 }
 
 .title-theme-light{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -145,7 +145,7 @@ color: #212121;
 }
 
 .employees-name{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -159,7 +159,7 @@ color: #212121;
 }
 
 .employees-position{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -177,7 +177,7 @@ color: #757575;
 }
 
 .search-btn{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -199,7 +199,7 @@ color: #757575;
 }
 
 .name{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
@@ -212,7 +212,7 @@ color: #212121;
 }
 
 .technology{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
