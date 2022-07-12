@@ -11,55 +11,46 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
-        <nav class="page-nav">
-          <a class="logo link" href="./index.html"><span class="active">Web</span>Studio </a>
-          <ul class="menu list">
-            <li class="menu-item">
-              <a class="menu-link link" href="#stydio">Студия</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="about.html">Портфолио</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="#contacts">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="list">
-          <li>
-            <a class="mail-link link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+      <nav class="page-nav">
+        <a class="logo link" href="./index.html"><span class="active">Web</span>Studio </a>
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="menu-link link" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a class="phone-number list link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="menu-item">
+            <a class="menu-link link" href="about.html">Портфолио</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="./index.html">Контакты</a>
           </li>
         </ul>
-      </header>
+      </nav>
+      <ul class="contact list">
+        <li>
+          <a class="mail-link link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+        </li>
+        <li>
+          <a class="phone-number list link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </header>
       <main>
         <section>
-          <div class="search-btn">
-            <h2 hidden>Все</h2>
-          <button type="button">Все</button>
-        </div>
-        <div class="search-btn">
-            <h2 hidden>Веб-сайт</h2>
-          <button type="button">Веб-сайты</button>
-        </div>
-        <div class="search-btn">
-            <h2 hidden>Приложение</h2>
-          <button type="button">Приложения</button>
-        </div>
-        <div class="search-btn">
-            <h2 hidden>Дизайн</h2>
-          <button type="button">Дизайн</button>
-        </div>
-        <div class="search-btn">
-            <h2 hidden>Маркетинг</h2>
-          <button type="button">Маркетинг</button>
-        </div>
+        <section class="projects">
+          <h1 class="projects-title">Наши работы</h1>
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="button button-active" type="button">Все</button>
+            </li>
+            <li class="filter-item"><button class="button" type="button">Веб-сайты</button></li>
+            <li class="filter-item"><button class="button" type="button">Приложения</button></li>
+            <li class="filter-item"><button class="button" type="button">Дизайн</button></li>
+            <li class="filter-item"><button class="button" type="button">Маркетинг</button></li>
+          </ul>
           </section>
           <section>
             <h1 hidden>Проекти</h1>
@@ -132,7 +123,7 @@
               </ul>
             </section>  
     </main>
-    <footer>
+    <footer class="footer">
       <a class="logo link" href="./index.html"><span class="active">Web</span>Studio </a>
       <address>
           <ul class="list">
