@@ -43,7 +43,7 @@ color: var(--black);
     color: var(--active-color);
 }
 
-.menu-link{
+.menu-item{
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -54,29 +54,35 @@ color: var(--title-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 .phone-number{
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
+color: var(--text-color);
 }
 
-.menu-link.active,
-.menu-link:focus,
-.menu-link:hover,
+.menu-item.active,
+.menu-item:focus,
+.menu-item:hover,
 .contact:focus,
 .contact:hover{
   color: var(--active-color);
 }
 
 .mail-link:hover,
-.mail-link:focus{
+.mail-link:focus,
+.mail-link-footer:hover,
+.mail-link-footer:focus{
     color:  var(--active-color);
 }
 
 .phone-number:hover,
-.phone-number:focus{
+.phone-number:focus,
+.phone-number-footer:hover,
+.phone-number-footer:focus{
     color:  var(--active-color);
 }
 
@@ -112,6 +118,7 @@ color:  var(--text-primary-color);
 
 .about{
 font-weight: 700;
+font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 
@@ -148,6 +155,13 @@ text-align: center;
 .maps-go:hover,
 .maps-go:focus{
     color:  var(--active-color);
+}
+
+.maps-go{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;  
+  color: var(--text-primary-color);
 }
 
 
@@ -197,3 +211,7 @@ line-height: 1.88;
     color: var(--text-color);
   }
   
+.mail-link-footer,
+.phone-number-footer{
+  color: rgba(255, 255, 255, 0.6);
+}
