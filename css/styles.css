@@ -168,7 +168,7 @@ text-align: center;
 .name{
 font-weight: 700;
 font-size: 18px;
-line-height: 2.00;
+line-height: 2;
 letter-spacing: 0.06em;
 color: var(--title-color);
 }
@@ -214,4 +214,42 @@ line-height: 1.88;
 .mail-link-footer,
 .phone-number-footer{
   color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.20;
+  color: var(--text-primary-color);
+}
+
+.address{
+  font-style: normal;
+}
+
+.button-active{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+border: none;
+padding: 6px 22px;
+}
+
+.filter-item{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+border: none;
+padding: 6px 22px;
 }
